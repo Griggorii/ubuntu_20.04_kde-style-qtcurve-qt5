@@ -3,7 +3,7 @@ kde-style-qtcurve-qt5 , ubuntu 20.04 , example
 
                                                           Ubuntu 20.04
                                                           
-install qt5ctl                                                          
+install qt5ct                                                         
 
 $ sudo dpkg -i *.deb
 
@@ -17,7 +17,7 @@ and test port gtk3 clear string and replace gtk2 to 3 ("export QT_QPA_PLATFORMTH
 
 $ "export QT_QPA_PLATFORMTHEME=gtk3" >> ~/.profile
 
-variant 3 install qt5ctl replace string :
+variant 3 install qt5ct replace string :
 
 echo "export QT_QPA_PLATFORMTHEME=qt5ct"
 
