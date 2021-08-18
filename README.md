@@ -9,17 +9,17 @@ $ sudo dpkg -i *.deb
 
 Build https://youtu.be/um2hGExyEm0 | Qt4 include https://youtu.be/YaXbSzQLuFk
 
-$ "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
+$ echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
 
 Run obs and vlc and alternative launching the program
 
 and test port gtk3 clear string and replace gtk2 to 3 ("export QT_QPA_PLATFORMTHEME=gtk2") $ gedit ~/.profile
 
-$ "export QT_QPA_PLATFORMTHEME=gtk3" >> ~/.profile
+$ echo "export QT_QPA_PLATFORMTHEME=gtk3" >> ~/.profile
 
 variant 3 install qt5ct replace string :
 
-$ echo "export QT_QPA_PLATFORMTHEME=qt5ct"
+$ echo "export QT_QPA_PLATFORMTHEME=qt5ct" >> ~/.profile
 
 Test run obs and vlc and alternative launching the program
 
