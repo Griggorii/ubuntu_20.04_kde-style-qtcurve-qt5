@@ -19,7 +19,7 @@ $ "export QT_QPA_PLATFORMTHEME=gtk3" >> ~/.profile
 
 variant 3 install qt5ct replace string :
 
-echo "export QT_QPA_PLATFORMTHEME=qt5ct"
+$ echo "export QT_QPA_PLATFORMTHEME=qt5ct"
 
 Test run obs and vlc and alternative launching the program
 
