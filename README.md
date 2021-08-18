@@ -21,7 +21,7 @@ variant 3 install qt5ct replace export QT_QPA_PLATFORMTHEME=? string :
 
 $ echo "export QT_QPA_PLATFORMTHEME=qt5ct" >> ~/.profile
 
-Test run obs and vlc and alternative launching the program
+Test run obs and vlc (realtime change theme) and alternative launching the program
 
 Only real technologies, not any fictional parasitic distributions support real technology investments and donate dollar card VISA 4817 7601 8112 4706 thanks griggorii@gmail.comecho "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
 
