@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Wed, 18 Aug 2021 12:24:39 +0800
+Source: qtcurve
+Binary: gtk2-engines-qtcurve kde-style-qtcurve-qt5 libqtcurve-utils2 qtcurve qtcurve-l10n
+Architecture: source amd64 all
+Version: 1.9-5build1
+Distribution: focal
+Urgency: medium
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Changed-By: Griggorii <griggorii@gmail.com>
+Description:
+ gtk2-engines-qtcurve - QtCurve widget style for applications based on GTK+ 2.x
+ kde-style-qtcurve-qt5 - QtCurve widget style for applications based on Qt 5.x
+ libqtcurve-utils2 - common library for QtCurve
+ qtcurve    - unified widget styles for Qt and GTK+ applications (metapackage)
+ qtcurve-l10n - translation files for QtCurve
+Changes:
+ qtcurve (1.9-5build1) focal; urgency=medium
+ .
+   * Test rebuild against qtbase-abi-5-12-8.
+Checksums-Sha1:
+ 7022ad7d5819ab1bbd1fba8a5b06884093ab3efc 1679 qtcurve_1.9-5build1.dsc
+ 735cb15a986e2a70d3868f2e9349fae4512d6312 12392 qtcurve_1.9-5build1.debian.tar.xz
+ d1f72fbafa80ef3ba8964cd0f84369f772be8255 1005060 gtk2-engines-qtcurve-dbgsym_1.9-5build1_amd64.ddeb
+ 790ea55a97a05824c3b3a8e8290d3ef3844fa7b8 169628 gtk2-engines-qtcurve_1.9-5build1_amd64.deb
+ 9a4df7d0c0de77c0c8f08de50678d503748bed43 4764504 kde-style-qtcurve-qt5-dbgsym_1.9-5build1_amd64.ddeb
+ 3e92d5c3338b392a75bf0afdfd4b6d35a82850e3 348052 kde-style-qtcurve-qt5_1.9-5build1_amd64.deb
+ ecd999ab1ed1439a2ebe29fb42fde99078bb3085 319808 libqtcurve-utils2-dbgsym_1.9-5build1_amd64.ddeb
+ e697f52292915728ec0950640b818958c81b60a9 35104 libqtcurve-utils2_1.9-5build1_amd64.deb
+ bedc2bfd77e2b44619697cb1d83e9db52a240c55 269812 qtcurve-l10n_1.9-5build1_all.deb
+ 322990551efd0173ac850c35f0c519a296fb2efb 35840 qtcurve_1.9-5build1_amd64.buildinfo
+ d105ca962c0c79a053f88dd4d1e4d192a77a0774 6484 qtcurve_1.9-5build1_amd64.deb
+Checksums-Sha256:
+ b8e8bb9f92d093c66bb4925a6cdaa82c637bb2e9f03bc778462bf8d3ee0a69fa 1679 qtcurve_1.9-5build1.dsc
+ 5d19cea497a167a24e1878683e78a155782a6759166b8742378d382da1b0a365 12392 qtcurve_1.9-5build1.debian.tar.xz
+ d6f48d12ac5c729f7cd6ab9007ec3f27e47c4866ca1a5e71f42b069d472b0764 1005060 gtk2-engines-qtcurve-dbgsym_1.9-5build1_amd64.ddeb
+ f90abd7373b55c7b004db4372ce21c548bf04291af1bd2ca79b0cb4d632ca8b1 169628 gtk2-engines-qtcurve_1.9-5build1_amd64.deb
+ 59f51e71915e65c31760f5e761f5ea437aa1bfca3c7335dcfb3afc9a85f90b0d 4764504 kde-style-qtcurve-qt5-dbgsym_1.9-5build1_amd64.ddeb
+ f7f7b908ac2efbf1b1778238cff3975f4ac277d0025f79779cf42270732f4139 348052 kde-style-qtcurve-qt5_1.9-5build1_amd64.deb
+ 22f9d0230524f3c83603200592fcfc965f3f7794d25efcaa696d22ba8f24f4ff 319808 libqtcurve-utils2-dbgsym_1.9-5build1_amd64.ddeb
+ 8b1ca3fb4e80ebd3b38967cda16c13d048f41c411b0a763c1c5d7a22b8cb32b5 35104 libqtcurve-utils2_1.9-5build1_amd64.deb
+ d13f96aa8d08ae03b1cea587526697eaa4b0ac39a4454a66de5e64b9997b9875 269812 qtcurve-l10n_1.9-5build1_all.deb
+ b9810cbd34e1c63973e44df15d94f13bcad2ce0b5d78a5661f771eb90ceb155d 35840 qtcurve_1.9-5build1_amd64.buildinfo
+ d046e477e709b2a8c91c3ddc2be500c9c053ce9f44e23e85452ba91a0c139a49 6484 qtcurve_1.9-5build1_amd64.deb
+Files:
+ bfd13e86c7a2aeafbe969cf741a73337 1679 kde optional qtcurve_1.9-5build1.dsc
+ 9a7ba31b601ccef554bf1394c4b71fb7 12392 kde optional qtcurve_1.9-5build1.debian.tar.xz
+ 440f52d03e16cc8d686fba06339a84aa 1005060 debug optional gtk2-engines-qtcurve-dbgsym_1.9-5build1_amd64.ddeb
+ 9e93408403a0db31a5ea3f855e28480c 169628 gnome optional gtk2-engines-qtcurve_1.9-5build1_amd64.deb
+ a6377b8f366c44b3c308f5a324d9837f 4764504 debug optional kde-style-qtcurve-qt5-dbgsym_1.9-5build1_amd64.ddeb
+ 06058d87b9fb3e2efbc545ae0cadf23c 348052 kde optional kde-style-qtcurve-qt5_1.9-5build1_amd64.deb
+ c9334128380ab3b8db3ae4ec3aa5516f 319808 debug optional libqtcurve-utils2-dbgsym_1.9-5build1_amd64.ddeb
+ 52065c92f2d3871504e1d27128ca6136 35104 libs optional libqtcurve-utils2_1.9-5build1_amd64.deb
+ 2c78fd9f3b95a304392cd4efd8767a6f 269812 localization optional qtcurve-l10n_1.9-5build1_all.deb
+ 29f3f2b2645995e19d23f4397a610c71 35840 kde optional qtcurve_1.9-5build1_amd64.buildinfo
+ 565c6472570088b246c73a79138ebeb3 6484 metapackages optional qtcurve_1.9-5build1_amd64.deb
