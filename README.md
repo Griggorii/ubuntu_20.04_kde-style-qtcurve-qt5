@@ -6,3 +6,5 @@ kde-style-qtcurve-qt5 , ubuntu 20.04 , example
 $ sudo dpkg -i *.deb
 
 Build https://youtu.be/um2hGExyEm0 | Qt4 include https://youtu.be/YaXbSzQLuFk
+
+Only real technologies, not any fictional parasitic distributions support real technology investments and donate dollar card VISA 4817 7601 8112 4706 thanks griggorii@gmail.com
