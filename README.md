@@ -2,6 +2,8 @@
 kde-style-qtcurve-qt5 , ubuntu 20.04 , example
 
                                                           Ubuntu 20.04
+                                                          
+install qt5ctl                                                          
 
 $ sudo dpkg -i *.deb
 
@@ -14,6 +16,10 @@ Run obs and vlc and alternative launching the program
 and test port gtk3 clear string and replace gtk2 to 3 ("export QT_QPA_PLATFORMTHEME=gtk2") $ gedit ~/.profile
 
 $ "export QT_QPA_PLATFORMTHEME=gtk3" >> ~/.profile
+
+variant 3 install qt5ctl replace string :
+
+echo "export QT_QPA_PLATFORMTHEME=qt5ct"
 
 Test run obs and vlc and alternative launching the program
 
