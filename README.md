@@ -3,9 +3,15 @@ kde-style-qtcurve-qt5 , ubuntu 20.04 , example
 
                                                           Ubuntu 20.04
                                                           
-install qt5ct                                                         
+install qt5ct
+
+$ sudo apt update
 
 $ sudo dpkg -i *.deb
+
+Apt install -f yes command:
+
+$ sudo apt install -f
 
 Build https://youtu.be/um2hGExyEm0 | Qt4 include https://youtu.be/YaXbSzQLuFk
 
