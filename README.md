@@ -9,7 +9,7 @@ $ sudo apt update
 
 $ sudo dpkg -i *.deb
 
-Apt install -f yes command:
+Apt install dependency -f yes command:
 
 $ sudo apt install -f
 
